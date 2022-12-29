@@ -1,5 +1,38 @@
 .container {
-  padding: 0 2rem;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.homepage {
+  background-image: url("../assets/nitesh4.jpg");
+}
+
+.navbar {
+  background-color: #0b0f1e;
+  height: 4.6rem;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4.6rem;
+}
+
+.leftnav {
+  font-size: 2.4rem;
+  color: #127bf7;
+  /* background-color: red; */
+  width: 10%;
+}
+
+.rightnav {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: blue; */
+  width: 50%;
+  font-size: 1.4rem;
+  font-weight: 300;
 }
 
 .main {
@@ -73,41 +106,6 @@
   max-width: 800px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -116,7 +114,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .card,
   .footer {
     border-color: #222;
   }
