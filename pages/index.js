@@ -2,6 +2,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+} from "next-share";
+
+import { SocialIcon } from "react-social-icons";
 
 export default function Home() {
   return (
@@ -37,9 +45,30 @@ export default function Home() {
             <div className={styles.left_main}>
               <div className={styles.contactlinks}>
                 <ul className={styles.social_links}>
-                  <li>facebook</li>
-                  <li>instagram</li>
-                  <li>linkedine</li>
+                  <li>
+                    {/* <FacebookShareButton url="https://www.facebook.com/nitesh.sunar/">
+                      <FacebookIcon size={32} round />
+                    </FacebookShareButton> */}
+                    <SocialIcon
+                      url="https://www.facebook.com/nitesh.sunar/"
+                      bgColor="#127bf7"
+                      style={{ height: 32, width: 32 }}
+                    />
+                  </li>
+                  <li>
+                    <SocialIcon
+                      url="https://www.instagram.com/iamniteshswarnakar/"
+                      bgColor="#127bf7"
+                      style={{ height: 32, width: 32 }}
+                    />
+                  </li>
+                  <li>
+                    <SocialIcon
+                      url="https://np.linkedin.com/in/nitesh-swarnakar-75411a142"
+                      bgColor="#127bf7"
+                      style={{ height: 32, width: 32 }}
+                    />
+                  </li>
                 </ul>
               </div>
               <div className={styles.introduction_heading}>
@@ -54,10 +83,10 @@ export default function Home() {
               </div>
               <div className={styles.action_button}>
                 <div className={styles.my_work}>
-                  <a href="">My work</a>
+                  <a href="">MY WORK</a>
                 </div>
                 <div className={styles.hire_me}>
-                  <a href="">Hire me</a>
+                  <a href="">HIRE ME</a>
                 </div>
               </div>
             </div>
@@ -69,7 +98,7 @@ export default function Home() {
       </section>
 
       <footer className={styles.footer}>
-        <h3>@copyright</h3>
+        <h3 className={styles.copyright}>@copyright</h3>
       </footer>
     </div>
   );

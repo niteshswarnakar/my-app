@@ -80,7 +80,7 @@
 
 .description_heading {
   font-size: 1.2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -92,6 +92,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 9rem;
 }
 
 .my_work {
@@ -123,6 +124,10 @@
   flex-grow: 1;
 }
 
+.copyright {
+  font-weight: 300;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -140,36 +145,8 @@
   font-size: 4rem;
 }
 
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
 @media (max-width: 600px) {
-  .grid {
+  .main {
     width: 100%;
     flex-direction: column;
   }
