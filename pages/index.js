@@ -21,10 +21,12 @@ export default function Home() {
         <nav className={styles.navbar}>
           <ul className={styles.navlinks}>
             <div className={styles.leftnav}>
-              <li className={styles.iamnitesh}>iamnitesh</li>
+              <li className={styles.iamnitesh}>
+                iam<span className={styles.nitesh_span}>nitesh</span>
+              </li>
             </div>
             <div className={styles.rightnav}>
-              <li>Home</li>
+              <li className={styles.home}>Home</li>
               <li>About</li>
               <li>Contact</li>
             </div>

@@ -26,13 +26,24 @@
   width: 10%;
 }
 
+.nitesh_span {
+  color: white;
+}
+
 .rightnav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 3rem;
+
   /* background-color: blue; */
   width: 50%;
   font-size: 1.4rem;
   font-weight: 300;
+}
+
+.home {
+  color: #127bf7;
+  font-weight: 500;
 }
 
 .main {
