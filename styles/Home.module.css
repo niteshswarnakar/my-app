@@ -37,12 +37,63 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.section_main {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.social_links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  color: #127bf7;
+  margin-bottom: 1rem;
+  /* background-color: blue; */
+  /* padding: 0 4rem; */
+}
+
+.introduction_heading {
+  font-size: 5.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.description_heading {
+  font-size: 1.2rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-weight: 300;
+}
+
+.action_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.my_work {
+  background-color: #127bf7;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+}
+
+.hire_me {
+  background-color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  color: #127bf7;
 }
 
 .footer {

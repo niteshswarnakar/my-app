@@ -30,8 +30,39 @@ export default function Home() {
             </div>
           </ul>
         </nav>
-        <main className={`${styles.main} ${styles.container}`}>
-          <h2>THIS PORTFOLIO PAGE IS UNDER DEVELOPMENT</h2>
+        <main className={`${styles.main}`}>
+          <div className={`${styles.container} ${styles.section_main} `}>
+            <div className={styles.left_main}>
+              <div className={styles.contactlinks}>
+                <ul className={styles.social_links}>
+                  <li>facebook</li>
+                  <li>instagram</li>
+                  <li>linkedine</li>
+                </ul>
+              </div>
+              <div className={styles.introduction_heading}>
+                I am a developer
+              </div>
+              <div className={styles.description_heading}>
+                <p>
+                  I am passionate developer who loves to explore new things
+                  everyday.
+                </p>
+                <p>Web development, Graphic Design, DevOps Engineering</p>
+              </div>
+              <div className={styles.action_button}>
+                <div className={styles.my_work}>
+                  <a href="">My work</a>
+                </div>
+                <div className={styles.hire_me}>
+                  <a href="">Hire me</a>
+                </div>
+              </div>
+            </div>
+            <div className={styles.right_main}>
+              Portfolio website is still under development :)
+            </div>
+          </div>
         </main>
       </section>
 
