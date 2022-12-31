@@ -9,6 +9,8 @@ import {
   LinkedinIcon,
 } from "next-share";
 
+import myimage from "../assets/myimage.jpg";
+
 import { SocialIcon } from "react-social-icons";
 
 export default function Home() {
@@ -113,8 +115,55 @@ export default function Home() {
       </section>
       <section className={styles.section_detail}>
         <div className={styles.container}>
-          <div className={styles.detail_left}>left</div>
-          <div className={styles.detail_right}>right</div>
+          <div className={styles.section_detail_layout}>
+            <div className={styles.detail_left}>
+              <div>
+                <Image
+                  className={styles.myimage}
+                  // loader={myLoader}
+                  src={myimage}
+                  alt="Picture of the author"
+                  width={400}
+                />
+                <div> &nbsp;</div>
+                <div> &nbsp;</div>
+                <div> &nbsp;</div>
+                <div> &nbsp;</div>
+                <div> &nbsp;</div>
+                <div> &nbsp;</div>
+                <div> &nbsp;</div>
+              </div>
+              <div className={styles.my_skills}>
+                <ul className={styles.skills_list}>
+                  <li>
+                    <p>Web Development</p>
+                    <div className={styles.web_div}>
+                      <div
+                        className={`${styles.progressbar} ${styles.web_progressbar} `}
+                      ></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>Graphic Design</p>
+                    <div className={styles.web_div}>
+                      <div
+                        className={`${styles.progressbar} ${styles.graphic_progessbar} `}
+                      ></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>DevOps</p>
+                    <div className={styles.web_div}>
+                      <div
+                        className={`${styles.progressbar} ${styles.devOps_progessbar} `}
+                      ></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={styles.detail_right}>right</div>
+          </div>
         </div>
       </section>
 

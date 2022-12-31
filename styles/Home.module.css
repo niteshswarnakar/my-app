@@ -129,6 +129,73 @@
   filter: drop-shadow(0 0 200px white);
 }
 
+/* SECTION DETAIL  */
+
+.section_detail {
+  background-image: url("../assets/background-body.jpg");
+  height: 100vh;
+}
+
+.section_detail_layout {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: center;
+}
+
+.detail_left {
+  padding: 0 2.4rem;
+  /* background-color: blue; */
+  position: relative;
+}
+
+.my_skills {
+  padding: 2rem;
+  border: 1px solid #127bf7;
+  position: absolute;
+  top: 18rem;
+  right: -10rem;
+  width: 28rem;
+  height: 22.8rem;
+  background-color: rgba(2, 2, 18, 0.9);
+}
+
+/* .myimage {
+  border: 1px solid #127bf7;
+} */
+
+.skills_list {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: 1.4rem;
+}
+
+.web_div {
+  border: 2px solid #127bf7;
+  margin-top: 6px;
+  height: 10px;
+  width: 310px;
+}
+
+.progressbar {
+  margin: 1px 0 0 1px;
+  height: 4px;
+  background-color: white;
+}
+
+.web_progressbar {
+  width: 260px;
+}
+
+.graphic_progessbar {
+  width: 200px;
+}
+
+.devOps_progessbar {
+  width: 100px;
+}
+
 .footer {
   display: flex;
   flex: 1;
