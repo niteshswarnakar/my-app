@@ -30,13 +30,24 @@ export default function Home() {
           <ul className={styles.navlinks}>
             <div className={styles.leftnav}>
               <li className={styles.iamnitesh}>
-                iam<span className={styles.nitesh_span}>nitesh</span>
+                <a href="">
+                  iam<span className={styles.nitesh_span}>nitesh</span>
+                </a>
               </li>
             </div>
             <div className={styles.rightnav}>
-              <li className={styles.home}>Home</li>
-              <li>About</li>
-              <li>Contact</li>
+              <li className={styles.home}>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Projects</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
             </div>
           </ul>
         </nav>
@@ -82,11 +93,15 @@ export default function Home() {
                 <p>Web development, Graphic Design, DevOps Engineering</p>
               </div>
               <div className={styles.action_button}>
-                <div className={styles.my_work}>
-                  <a href="">MY WORK</a>
+                <div>
+                  <a className={styles.my_work} href="">
+                    MY WORK
+                  </a>
                 </div>
-                <div className={styles.hire_me}>
-                  <a href="">HIRE ME</a>
+                <div>
+                  <a className={styles.hire_me} href="">
+                    HIRE ME
+                  </a>
                 </div>
               </div>
             </div>
