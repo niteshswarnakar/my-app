@@ -111,6 +111,12 @@ export default function Home() {
           </div>
         </main>
       </section>
+      <section className={styles.section_detail}>
+        <div className={styles.container}>
+          <div className={styles.detail_left}>left</div>
+          <div className={styles.detail_right}>right</div>
+        </div>
+      </section>
 
       <footer className={styles.footer}>
         <h3 className={styles.copyright}>@copyright</h3>

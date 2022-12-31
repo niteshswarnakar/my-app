@@ -17,6 +17,7 @@
   justify-content: space-around;
   align-items: center;
   height: 4.6rem;
+  filter: drop-shadow(0 0 0px white);
 }
 
 .leftnav {
@@ -74,8 +75,24 @@
 }
 
 .introduction_heading {
+  filter: drop-shadow(0 0 200px #127bf7);
   font-size: 5.2rem;
   margin-bottom: 1.6rem;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.116);
+  color: transparent;
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -720px 0;
+  animation: backcolor 0.8s linear forwards;
+  /* border-right: 1px solid white; */
+}
+
+@keyframes backcolor {
+  100% {
+    background-position: 0 0;
+    /* font-size: 100px; */
+  }
 }
 
 .description_heading {
@@ -93,19 +110,23 @@
   align-items: center;
   gap: 2rem;
   margin-bottom: 9rem;
+  /* filter: drop-shadow(0 0 10px #127bf7); */
 }
 
 .my_work {
   background-color: #127bf7;
   padding: 0.8rem 2rem;
   border-radius: 50px;
+  filter: drop-shadow(0 0 200px #127bf7);
 }
 
 .hire_me {
   background-color: white;
+
   padding: 0.8rem 2rem;
   border-radius: 50px;
   color: #127bf7;
+  filter: drop-shadow(0 0 200px white);
 }
 
 .footer {
