@@ -184,6 +184,16 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+              <div className={styles.my_details_description}>
+                <div>
+                  <p className={styles.field_name}>Phone Number</p>
+                  <p className={styles.field_value}>random_number :)</p>
+                </div>
+                <div>
+                  <p className={styles.field_name}>Instagram</p>
+                  <p className={styles.field_value}>@iamniteshswarnakar</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

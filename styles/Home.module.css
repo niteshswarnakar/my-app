@@ -202,8 +202,9 @@
   margin-top: 10rem;
   height: 60vh;
   padding: 1rem 1rem;
-  border: 1px solid #127bf7;
-  /* background-color: red; */
+  /* filter: drop-shadow(0 0 100px blue); */
+
+  /* border: 1px solid #127bf7; */
 }
 
 .about_me {
