@@ -162,7 +162,29 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className={styles.detail_right}>right</div>
+            <div className={styles.detail_right}>
+              <div className={styles.about_me}>About me</div>
+              <div className={styles.my_description}>
+                <p>
+                  I am nitesh Swarnakar. I am computer engineering student 8th
+                  semester running. I am orginally from Rajapur, Bardiya. I am
+                  currently living in Pulchowk, Lalitpur. I am web developer. I
+                  am passionate and dedicated to my work.
+                </p>
+              </div>
+              <div className={styles.my_details_description}>
+                <div>
+                  <p className={styles.field_name}>Name</p>
+                  <p className={styles.field_value}>Nitesh Swarnakar</p>
+                </div>
+                <div>
+                  <p className={styles.field_name}>Email</p>
+                  <p className={styles.field_value}>
+                    nitesh.swarnakar1@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -146,6 +146,7 @@
 .detail_left {
   padding: 0 2.4rem;
   /* background-color: blue; */
+  /* width: 80vw; */
   position: relative;
 }
 
@@ -154,7 +155,7 @@
   border: 1px solid #127bf7;
   position: absolute;
   top: 18rem;
-  right: -10rem;
+  right: 1rem;
   width: 28rem;
   height: 22.8rem;
   background-color: rgba(2, 2, 18, 0.9);
@@ -194,6 +195,43 @@
 
 .devOps_progessbar {
   width: 100px;
+}
+
+.detail_right {
+  align-self: flex-start;
+  margin-top: 10rem;
+  height: 60vh;
+  padding: 1rem 1rem;
+  border: 1px solid #127bf7;
+  /* background-color: red; */
+}
+
+.about_me {
+  border: 2px solid white;
+  width: fit-content;
+  padding: 1.4rem;
+  font-size: 2rem;
+}
+
+.my_description {
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.my_details_description {
+  margin-top: 2.6rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.field_name {
+  color: #127bf7;
+  font-size: 1.2rem;
+}
+
+.field_value {
+  font-weight: 300;
 }
 
 .footer {
