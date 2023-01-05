@@ -8,7 +8,11 @@
 }
 
 .navbar {
-  background-color: #0b0f1e;
+  background-color: #0b0f1ed0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  backdrop-filter: blur(6px);
   height: 4.6rem;
 }
 
