@@ -112,96 +112,94 @@ export default function Home() {
             </div>
           </div>
         </main>
-      </section>
-      <section className={styles.section_detail}>
-        <div className={styles.container}>
-          <div className={styles.section_detail_layout}>
-            <div className={styles.detail_left}>
-              <div>
-                <Image
-                  className={styles.myimage}
-                  // loader={myLoader}
-                  src={myimage}
-                  alt="Picture of the author"
-                  width={400}
-                />
-                <div> &nbsp;</div>
-                <div> &nbsp;</div>
-                <div> &nbsp;</div>
-                <div> &nbsp;</div>
-                <div> &nbsp;</div>
-                <div> &nbsp;</div>
-                <div> &nbsp;</div>
-              </div>
-              <div className={styles.my_skills}>
-                <ul className={styles.skills_list}>
-                  <li>
-                    <p>Web Development</p>
-                    <div className={styles.web_div}>
-                      <div
-                        className={`${styles.progressbar} ${styles.web_progressbar} `}
-                      ></div>
-                    </div>
-                  </li>
-                  <li>
-                    <p>Graphic Design</p>
-                    <div className={styles.web_div}>
-                      <div
-                        className={`${styles.progressbar} ${styles.graphic_progessbar} `}
-                      ></div>
-                    </div>
-                  </li>
-                  <li>
-                    <p>DevOps</p>
-                    <div className={styles.web_div}>
-                      <div
-                        className={`${styles.progressbar} ${styles.devOps_progessbar} `}
-                      ></div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className={styles.detail_right}>
-              <div className={styles.about_me}>About me</div>
-              <div className={styles.my_description}>
-                <p>
-                  I am nitesh Swarnakar. I am computer engineering student 8th
-                  semester running. I am orginally from Rajapur, Bardiya. I am
-                  currently living in Pulchowk, Lalitpur. I am web developer. I
-                  am passionate and dedicated to my work.
-                </p>
-              </div>
-              <div className={styles.my_details_description}>
+
+        <section className={styles.section_detail}>
+          <div className={styles.container}>
+            <div className={styles.section_detail_layout}>
+              <div className={styles.detail_left}>
                 <div>
-                  <p className={styles.field_name}>Name</p>
-                  <p className={styles.field_value}>Nitesh Swarnakar</p>
+                  <Image
+                    className={styles.myimage}
+                    // loader={myLoader}
+                    src={myimage}
+                    alt="Picture of the author"
+                    width={400}
+                  />
+                  <div> &nbsp;</div>
+                  <div> &nbsp;</div>
+                  <div> &nbsp;</div>
+                  <div> &nbsp;</div>
+                  <div> &nbsp;</div>
+                  <div> &nbsp;</div>
+                  <div> &nbsp;</div>
                 </div>
-                <div>
-                  <p className={styles.field_name}>Email</p>
-                  <p className={styles.field_value}>
-                    nitesh.swarnakar1@gmail.com
+                <div className={styles.my_skills}>
+                  <ul className={styles.skills_list}>
+                    <li>
+                      <p>Web Development</p>
+                      <div className={styles.web_div}>
+                        <div
+                          className={`${styles.progressbar} ${styles.web_progressbar} `}></div>
+                      </div>
+                    </li>
+                    <li>
+                      <p>Graphic Design</p>
+                      <div className={styles.web_div}>
+                        <div
+                          className={`${styles.progressbar} ${styles.graphic_progessbar} `}></div>
+                      </div>
+                    </li>
+                    <li>
+                      <p>DevOps</p>
+                      <div className={styles.web_div}>
+                        <div
+                          className={`${styles.progressbar} ${styles.devOps_progessbar} `}></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className={styles.detail_right}>
+                <div className={styles.about_me}>About me</div>
+                <div className={styles.my_description}>
+                  <p>
+                    I am nitesh Swarnakar. I am computer engineering student 8th
+                    semester running. I am orginally from Rajapur, Bardiya. I am
+                    currently living in Pulchowk, Lalitpur. I am web developer.
+                    I am passionate and dedicated to my work.
                   </p>
                 </div>
-              </div>
-              <div className={styles.my_details_description}>
-                <div>
-                  <p className={styles.field_name}>Phone Number</p>
-                  <p className={styles.field_value}>random_number :)</p>
+                <div className={styles.my_details_description}>
+                  <div>
+                    <p className={styles.field_name}>Name</p>
+                    <p className={styles.field_value}>Nitesh Swarnakar</p>
+                  </div>
+                  <div>
+                    <p className={styles.field_name}>Email</p>
+                    <p className={styles.field_value}>
+                      nitesh.swarnakar1@gmail.com
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <p className={styles.field_name}>Instagram</p>
-                  <p className={styles.field_value}>@iamniteshswarnakar</p>
+                <div className={styles.my_details_description}>
+                  <div>
+                    <p className={styles.field_name}>Phone Number</p>
+                    <p className={styles.field_value}>random_number :)</p>
+                  </div>
+                  <div>
+                    <p className={styles.field_name}>Instagram</p>
+                    <p className={styles.field_value}>@iamniteshswarnakar</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <footer className={styles.footer}>
-        <h3 className={styles.copyright}>@copyright</h3>
-      </footer>
+        <footer className={styles.footer}>
+          <h3 className={styles.copyright}>@copyright</h3>
+        </footer>
+      </section>
     </div>
   );
 }

@@ -4,6 +4,7 @@
 }
 
 .homepage {
+  width: 1900px;
   background-image: url("../assets/nitesh4.jpg");
 }
 
@@ -62,7 +63,7 @@
   width: 100%;
   height: 40rem;
   display: flex;
-  background-color: red;
+  /* background-color: red; */
   justify-content: space-between;
   align-items: center;
   text-align: center;
